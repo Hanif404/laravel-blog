@@ -39,7 +39,7 @@
             </div>
             <br/>
         </div>
-        <div v-if="comments.data.length">
+        <div v-if="comments.data.length" class="w-full flex justify-center mt-8 mb-8">
             <Pagination :links="comments.links" />
         </div>
     </div>
